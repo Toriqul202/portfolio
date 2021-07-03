@@ -6,7 +6,7 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+.top-banner{
     display: flex;
 }
 .first{
@@ -28,4 +28,31 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream{
+    display: flex;
+    padding-left: 10%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 10%;
+}
+.second{
+    width:50%;
+}
+.second h1{
+    font-size: 36px;
+}
+.second img {
+    width: 80%;
+}
+.second a{
+    padding: 10px 40px;
+    background-image:linear-gradient(orange,tomato);
+    border-radius:5px;
+    color:white;
+    text-decoration:none;
+    font-weight: 700;
+}
+.second p{
+    color:rgb(95, 93, 93)
 }
