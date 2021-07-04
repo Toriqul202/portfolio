@@ -125,13 +125,23 @@ h1{
  }
  .wlecome {
      font-size: 25px;
+     text-align: center;
  }
  .my-name { 
      font-size:20px;
+     text-align: center;
  }
  .mobile-p1{
      width: 100%;
      text-align:center;
+ }
+ .first h3{
+     color:red;
+     text-align: center;
+ }
+ .link {
+     text-align: center;
+     margin: 0% 35% ;
  }
     
 }
