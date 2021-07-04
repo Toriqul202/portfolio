@@ -79,7 +79,7 @@ h1{
     margin-left: 5%;
     padding-left: 20px;
     padding-bottom: 5%;
-  
+
     margin-bottom: 10%;
     
 }   
@@ -100,6 +100,16 @@ h1{
 .center-copyright h4{
     text-align: center;
     font-weight: 400;
+}
+#left-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,tomato,blue);
+    border-image-slice: 1;
+}
+#right-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato,blue,rgb(82, 235, 82));
+    border-image-slice: 1;
 }
 
 
