@@ -121,6 +121,7 @@ h1{
   } 
  .first{
      width:100%;
+     pading-left:0
      
  }
  .wlecome {
@@ -141,7 +142,7 @@ h1{
  }
  .link {
      text-align: center;
-     margin: 0% 35% ;
+     margin: 0% 10% ;
  }
     
 }
