@@ -5,6 +5,7 @@ body{
 }
 h1{
     font-size: 50px;
+    margin-top: 20px;
 }
 .top-banner{
     display: flex;
@@ -26,7 +27,7 @@ h1{
      color: white;
      font-weight:700;
      display: inline-block;
-     margin-top: 20px;
+     
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -114,14 +115,14 @@ h1{
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:768px) and (min-width:460px) {
   .top-banner{
       display: block;
       padding-right:10%;
   } 
  .first{
      width:100%;
-     pading-left:0
+     padding-left:0
      
  }
  .wlecome {
@@ -140,9 +141,14 @@ h1{
      color:red;
      text-align: center;
  }
- .link {
+ .link  {
      text-align: center;
-     margin: 0% 10% ;
+     margin:10px 35%;
+     padding:10px 60px;
+     color:rgb(89, 0, 255);
+    
+
+     
  }
     
 }
