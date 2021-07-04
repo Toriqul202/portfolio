@@ -115,9 +115,23 @@ h1{
 
 
 @media screen and (max-width:768px) {
-   
+  .top-banner{
+      display: block;
+      padding-right:10%;
+  } 
  .first{
      width:100%;
+     
+ }
+ .wlecome {
+     font-size: 25px;
+ }
+ .my-name { 
+     font-size:20px;
+ }
+ .mobile-p1{
+     width: 100%;
+     text-align:center;
  }
     
 }
